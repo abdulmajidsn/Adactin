@@ -1,9 +1,11 @@
 package test_case_script;
+import org.testng.annotations.Test;
+
 import Utilities.Base;
 import pages.Login;
-
+@Test
 public class Tc006_LoginIntoApplicationInvalidCre5 extends Base {
-	public static void main(String[] args) throws Exception {
+	public void Tc006_LoginIntoApplicationInvalidCre5() throws Exception {
 		/* TestSteps- 
 		 * 1.Launch browser 
 		 * 2.Enter URL 
@@ -14,7 +16,7 @@ public class Tc006_LoginIntoApplicationInvalidCre5 extends Base {
 		Base.maximixeAndWaitImp();
 		Base.enterAdactinLink();
 		Login.EnterloginUSn("");
-		Login.EnterloginPWn("Abdulmajid@1995");
+		Login.EnterloginPWn("Abdul@1995");
 		Login.ClickONloginBtn();
 		System.out.println("Error massege should be showed");
 		Base.staticWaitThread(5000);

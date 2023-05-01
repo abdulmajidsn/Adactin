@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="2" name="Suite" parallel="methods">
-  <test thread-count="2" name="Test">
-    <classes>
-      <class name="Tc001_LoginIntoApplication"/>
-      <class name="Tc002_LoginIntoApplicationInvalidCre"/>
+<suite name="Suite">
+	<listeners>
+    <listener class-name="org.testng.reporters.EmailableReporter"/>
+  </listeners>
+  <test thread-count="2"  name="Test">
     
-    </classes>
+    <packages>
+            <package name="test_case_script"/>
+        </packages>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

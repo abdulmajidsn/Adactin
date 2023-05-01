@@ -1,10 +1,8 @@
 package pages;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import Utilities.Base;
 import org.openqa.selenium.support.ui.Select;
-import org.testng.Assert;
 
 public class SearchHotel extends Base {
 	static By location = By.xpath("//select[@id='location']");
@@ -56,9 +54,9 @@ public class SearchHotel extends Base {
 	}
 	public static void usernameShow() {
 		WebElement username=driver.findElement(showUn);
-		String actual=username.getText();
+		//String actual=username.getText();
 		System.out.println(username.getText());
-		String expected="Hello abdulmaj123!";
+		//String expected="Hello abdulmaj123!";
 		//Assert.assertEquals(actual, expected);
 		
 	}

@@ -1,17 +1,155 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="https://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<meta charset='utf-8'>
 <title>TestNG Report</title>
-<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+<style type="text/css">
+table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}
+td,th {border:1px solid #009;padding:.25em .5em}
+.result th {vertical-align:bottom}
+.param th {padding-left:1em;padding-right:1em}
+.param td {padding-left:.5em;padding-right:2em}
+.stripe td,.stripe th {background-color: #E6EBF9}
+.numi,.numi_attn {text-align:right}
+.total td {font-weight:bold}
+.passedodd td {background-color: #0A0}
+.passedeven td {background-color: #3F3}
+.skippedodd td {background-color: #CCC}
+.skippedodd td {background-color: #DDD}
+.failedodd td,.numi_attn {background-color: #F33}
+.failedeven td,.stripe .numi_attn {background-color: #D00}
+.stacktrace {white-space:pre;font-family:monospace}
+.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}
+</style>
 </head>
 <body>
-<table>
-<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">31</td><td></td><td></td></tr>
+<table cellspacing="0" cellpadding="0" class="testOverview">
+<tr><th>Test</th><th>Methods<br/>Passed</th><th>Scenarios<br/>Passed</th><th># skipped</th><th># failed</th><th>Total<br/>Time</th><th>Included<br/>Groups</th><th>Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em"><a href="#t1">Test</a></td><td class="numi">10</td><td class="numi">10</td><td class="numi">0</td><td class="numi">0</td><td class="numi">133.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4" class="invisible"/></tr></tbody>
+<table cellspacing="0" cellpadding="0" class="methodOverview" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr id="t1"><th colspan="5">Test &#8212; passed</th></tr>
+<tr class="passedodd"><td>test_case_script.Tc001_LoginIntoApplication</td><td><a href="#m1"><b>Tc001_LoginIntoApplication</b>  </a></td><td class="numi">1</td><td>1682904002655</td><td class="numi">24065</td></tr>
+<tr class="passedeven"><td>test_case_script.Tc007_LoginIntoApplicationInvalidCre6</td><td><a href="#m2"><b>Tc007_LoginIntoApplicationInvalidCre6</b>  </a></td><td class="numi">1</td><td>1682904086524</td><td class="numi">12804</td></tr>
+<tr class="passedodd"><td>test_case_script.Tc002_LoginIntoApplicationInvalidCre</td><td><a href="#m3"><b>Tc002_LoginIntoApplicationInvalidCre</b>  </a></td><td class="numi">1</td><td>1682904026733</td><td class="numi">12719</td></tr>
+<tr class="passedeven"><td>test_case_script.Tc008_CheckWelcomeTest</td><td><a href="#m4"><b>Tc008_CheckWelcomeTest</b>  </a></td><td class="numi">1</td><td>1682904099336</td><td class="numi">12357</td></tr>
+<tr class="passedodd"><td>test_case_script.TC033_SearchHotel_username_verification</td><td><a href="#m5"><b>TC033_SearchHotel_username_verification</b>  </a></td><td class="numi">1</td><td>1682904126690</td><td class="numi">9676</td></tr>
+<tr class="passedeven"><td>test_case_script.Tc004_LoginIntoApplicationInvalidCre3</td><td><a href="#m6"><b>Tc004_LoginIntoApplicationInvalidCre3</b>  </a></td><td class="numi">1</td><td>1682904051016</td><td class="numi">11435</td></tr>
+<tr class="passedodd"><td>test_case_script.Tc006_LoginIntoApplicationInvalidCre5</td><td><a href="#m7"><b>Tc006_LoginIntoApplicationInvalidCre5</b>  </a></td><td class="numi">1</td><td>1682904074293</td><td class="numi">12226</td></tr>
+<tr class="passedeven"><td>test_case_script.TC031_SearchHotel</td><td><a href="#m8"><b>TC031_SearchHotel</b>  </a></td><td class="numi">1</td><td>1682904111699</td><td class="numi">14986</td></tr>
+<tr class="passedodd"><td>test_case_script.Tc005_LoginIntoApplicationInvalidCre4</td><td><a href="#m9"><b>Tc005_LoginIntoApplicationInvalidCre4</b>  </a></td><td class="numi">1</td><td>1682904062457</td><td class="numi">11832</td></tr>
+<tr class="passedeven"><td>test_case_script.Tc003_LoginIntoApplicationInvalidCre2</td><td><a href="#m10"><b>LoginIntoApplicationInvalidCre2</b>  </a></td><td class="numi">1</td><td>1682904039458</td><td class="numi">11552</td></tr>
 </table>
-<h2>Test</h2></body>
-</html>
+<h1>Test</h1>
+<h2 id="m1">test_case_script.Tc001_LoginIntoApplication:Tc001_LoginIntoApplication</h2>
+<div>
+Browser open with implicite wait<br/>
+enter url<br/>
+static wait for<br/>
+Unsername Enterd<br/>
+password enterd<br/>
+click on login<br/>
+static wait for<br/>
+click on logout<br/>
+browser close<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">test_case_script.Tc007_LoginIntoApplicationInvalidCre6:Tc007_LoginIntoApplicationInvalidCre6</h2>
+<div>
+Browser open with implicite wait<br/>
+enter url<br/>
+Unsername Enterd<br/>
+password enterd<br/>
+click on login<br/>
+static wait for<br/>
+browser close<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">test_case_script.Tc002_LoginIntoApplicationInvalidCre:Tc002_LoginIntoApplicationInvalidCre</h2>
+<div>
+Browser open with implicite wait<br/>
+enter url<br/>
+Unsername Enterd<br/>
+password enterd<br/>
+click on login<br/>
+static wait for<br/>
+browser close<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">test_case_script.Tc008_CheckWelcomeTest:Tc008_CheckWelcomeTest</h2>
+<div>
+Browser open with implicite wait<br/>
+enter url<br/>
+Welcome Title matched<br/>
+static wait for<br/>
+browser close<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">test_case_script.TC033_SearchHotel_username_verification:TC033_SearchHotel_username_verification</h2>
+<div>
+Browser open with implicite wait<br/>
+enter url<br/>
+Unsername Enterd<br/>
+password enterd<br/>
+click on login<br/>
+browser close<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">test_case_script.Tc004_LoginIntoApplicationInvalidCre3:Tc004_LoginIntoApplicationInvalidCre3</h2>
+<div>
+Browser open with implicite wait<br/>
+enter url<br/>
+Unsername Enterd<br/>
+password enterd<br/>
+click on login<br/>
+static wait for<br/>
+browser close<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">test_case_script.Tc006_LoginIntoApplicationInvalidCre5:Tc006_LoginIntoApplicationInvalidCre5</h2>
+<div>
+Browser open with implicite wait<br/>
+enter url<br/>
+Unsername Enterd<br/>
+password enterd<br/>
+click on login<br/>
+static wait for<br/>
+browser close<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">test_case_script.TC031_SearchHotel:TC031_SearchHotel</h2>
+<div>
+Browser open with implicite wait<br/>
+enter url<br/>
+Unsername Enterd<br/>
+password enterd<br/>
+click on login<br/>
+static wait for<br/>
+static wait for<br/>
+browser close<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">test_case_script.Tc005_LoginIntoApplicationInvalidCre4:Tc005_LoginIntoApplicationInvalidCre4</h2>
+<div>
+Browser open with implicite wait<br/>
+enter url<br/>
+Unsername Enterd<br/>
+password enterd<br/>
+click on login<br/>
+static wait for<br/>
+browser close<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">test_case_script.Tc003_LoginIntoApplicationInvalidCre2:LoginIntoApplicationInvalidCre2</h2>
+<div>
+Browser open with implicite wait<br/>
+enter url<br/>
+Unsername Enterd<br/>
+password enterd<br/>
+click on login<br/>
+static wait for<br/>
+browser close<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>
