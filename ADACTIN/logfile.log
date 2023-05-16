@@ -1,0 +1,54 @@
+2023-05-07 19:05:48,482 INFO  [Log] Open browser 
+2023-05-07 19:05:52,322 INFO  [Log] Enter URL 
+2023-05-07 19:05:54,328 INFO  [Log] Thread wait static wait  
+2023-05-07 19:05:56,111 INFO  [Log] Enter Username 
+2023-05-07 19:05:56,622 INFO  [Log] Enter password 
+2023-05-07 19:06:02,176 INFO  [Log] click on Login 
+2023-05-07 19:06:07,181 INFO  [Log] Thread wait static wait  
+2023-05-07 19:06:08,341 INFO  [Log] Click on logout 
+2023-05-07 19:06:11,281 INFO  [Log] Close browser 
+2023-05-07 19:10:34,587 INFO  [Log] Open browser 
+2023-05-07 19:10:44,622 INFO  [Log] Enter URL 
+2023-05-07 19:10:46,631 INFO  [Log] Thread wait static wait  
+2023-05-07 19:10:46,813 INFO  [Log] Enter Username 
+2023-05-07 19:10:46,928 INFO  [Log] Enter password 
+2023-05-07 19:10:48,177 INFO  [Log] click on Login 
+2023-05-07 19:10:53,184 INFO  [Log] Thread wait static wait  
+2023-05-07 19:10:54,117 INFO  [Log] Click on logout 
+2023-05-07 19:10:54,903 INFO  [Log] Close browser 
+2023-05-07 19:11:33,914 INFO  [Log] Open browser 
+2023-05-07 19:11:36,890 INFO  [Log] Enter URL 
+2023-05-07 19:11:38,900 INFO  [Log] Thread wait static wait  
+2023-05-07 19:11:39,047 INFO  [Log] Enter Username 
+2023-05-07 19:11:39,200 INFO  [Log] Enter password 
+2023-05-07 19:11:40,290 INFO  [Log] click on Login 
+2023-05-07 19:11:45,305 INFO  [Log] Thread wait static wait  
+2023-05-07 19:11:45,734 INFO  [Log] Click on logout 
+2023-05-07 19:11:46,987 INFO  [Log] Close browser 
+2023-05-07 19:12:29,435 INFO  [Log] Open browser 
+2023-05-07 19:12:29,703 INFO  [Log] Open browser 
+2023-05-07 19:12:32,621 INFO  [Log] Enter URL 
+2023-05-07 19:12:33,498 INFO  [Log] Enter URL 
+2023-05-07 19:12:34,630 INFO  [Log] Thread wait static wait  
+2023-05-07 19:12:34,779 INFO  [Log] Enter Username 
+2023-05-07 19:12:34,916 INFO  [Log] Enter password 
+2023-05-07 19:12:35,509 INFO  [Log] Thread wait static wait  
+2023-05-07 19:12:35,669 INFO  [Log] Enter Username 
+2023-05-07 19:12:35,816 INFO  [Log] Enter password 
+2023-05-07 19:12:36,604 INFO  [Log] click on Login 
+2023-05-07 19:12:36,876 INFO  [Log] click on Login 
+2023-05-07 19:12:41,615 INFO  [Log] Thread wait static wait  
+2023-05-07 19:12:41,885 INFO  [Log] Thread wait static wait  
+2023-05-07 19:12:42,143 INFO  [Log] Click on logout 
+2023-05-07 19:12:42,885 INFO  [Log] Click on logout 
+2023-05-07 19:12:43,603 INFO  [Log] Close browser 
+2023-05-07 19:12:44,349 INFO  [Log] Close browser 
+2023-05-07 19:25:51,020 INFO  [Log] Open browser 
+2023-05-07 19:25:53,935 INFO  [Log] Enter URL 
+2023-05-07 19:25:55,945 INFO  [Log] Thread wait static wait  
+2023-05-07 19:25:56,092 INFO  [Log] Enter Username 
+2023-05-07 19:25:56,231 INFO  [Log] Enter password 
+2023-05-07 19:25:58,392 INFO  [Log] click on Login 
+2023-05-07 19:26:03,394 INFO  [Log] Thread wait static wait  
+2023-05-07 19:26:03,823 INFO  [Log] Click on logout 
+2023-05-07 19:26:04,154 INFO  [Log] Close browser 

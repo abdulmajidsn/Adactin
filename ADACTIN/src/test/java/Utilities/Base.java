@@ -1,13 +1,10 @@
 package Utilities;
 import java.util.concurrent.TimeUnit;
-
+import org.apache.log4j.xml.DOMConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Reporter;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -29,6 +26,7 @@ public class Base {
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		System.out.println("Maximized and gave implicit wait");
 		Reporter.log("Browser open with implicite wait");
+		Log.info("Open browser");
 	}
 	
 	@SuppressWarnings("deprecation")
@@ -36,11 +34,13 @@ public class Base {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		System.out.println("Maximized and gave implicit wait");
+		Log.info("Enter Implicit Wait");
 	}
 
 	public static void staticWaitThread(int ms) throws Exception {
 		Thread.sleep(ms);
 		Reporter.log("static wait for");
+		Log.info("Thread wait static wait ");
 	}
 
 	public static void enterAdactinLink() {
@@ -48,12 +48,14 @@ public class Base {
 		driver.get(config.getUrl());
 		System.out.println("URL Entered");
 		Reporter.log("enter url");
+		Log.info("Enter URL");
 	}
 	
 	public static void closeApplication() {
 		driver.quit();
 		System.out.println("Browser Closed");
 		Reporter.log("browser close");
+		Log.info("Close browser");
 	}
 
 }
