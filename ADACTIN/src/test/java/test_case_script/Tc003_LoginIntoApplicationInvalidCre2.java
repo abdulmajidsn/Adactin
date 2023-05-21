@@ -13,7 +13,6 @@ public class Tc003_LoginIntoApplicationInvalidCre2 extends Base {
 		 * InValid Password 5.Click on Login button
 		 */
 
-		Base.openApplication();
 		Base.maximixeAndWaitImp();
 		Base.enterAdactinLink();
 		Login.EnterloginUSn("abdulmaj123");
@@ -22,6 +21,5 @@ public class Tc003_LoginIntoApplicationInvalidCre2 extends Base {
 		
 		System.out.println("Error massege should be showed");
 		Base.staticWaitThread(5000);
-		Base.closeApplication();
 	}
 }

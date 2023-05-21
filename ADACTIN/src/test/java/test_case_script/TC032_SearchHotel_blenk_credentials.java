@@ -3,14 +3,11 @@ package test_case_script;
 import Utilities.Base;
 import pages.Login;
 import pages.SearchHotel;
-import pages.SelectHotel;
-import pages.BookHotel;
 
 public class TC032_SearchHotel_blenk_credentials extends Base {
 
 	public void TC032_SearchHotel_blenk_credentials() throws Exception {
 		try {
-			Base.openApplication();
 			Base.enterAdactinLink();
 			Login.EnterloginUSn("abdulmaj123");
 			Login.EnterloginPWn("Abdul@1995");
@@ -26,7 +23,6 @@ public class TC032_SearchHotel_blenk_credentials extends Base {
 
 		System.out.println("Hotel page should not displayed on screen");
 
-		Base.closeApplication();
 
 	}
 

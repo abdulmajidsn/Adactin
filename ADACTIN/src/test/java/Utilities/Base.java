@@ -1,10 +1,12 @@
 package Utilities;
 import java.util.concurrent.TimeUnit;
-import org.apache.log4j.xml.DOMConfigurator;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Reporter;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -13,8 +15,8 @@ public class Base {
 	public static WebDriver driver;
 
 	@SuppressWarnings("deprecation")
-	
-	public static void openApplication() {
+	@BeforeTest
+	public void openApplication() {
 		WebDriverManager.chromedriver().setup();
 		ChromeOptions chromeOption=new ChromeOptions();
 		chromeOption.addArguments("--remote-allow-origins=*");
@@ -50,8 +52,8 @@ public class Base {
 		Reporter.log("enter url");
 		Log.info("Enter URL");
 	}
-	
-	public static void closeApplication() {
+	@AfterTest
+	public  void closeApplication() {
 		driver.quit();
 		System.out.println("Browser Closed");
 		Reporter.log("browser close");

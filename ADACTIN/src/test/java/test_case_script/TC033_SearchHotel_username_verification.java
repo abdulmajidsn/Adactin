@@ -10,14 +10,12 @@ import pages.SearchHotel;
 public class TC033_SearchHotel_username_verification extends Base {
 
 	public void TC033_SearchHotel_username_verification() throws Exception {
-		Base.openApplication();
 		Base.enterAdactinLink();
 		Login.EnterloginUSn("abdulmaj123");
 		Login.EnterloginPWn("Abdul@1995");
 		Login.ClickONloginBtn();
 
 		SearchHotel.usernameShow();
-		Base.closeApplication();
 
 	}
 

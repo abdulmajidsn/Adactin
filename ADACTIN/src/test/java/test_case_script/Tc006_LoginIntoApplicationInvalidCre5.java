@@ -12,7 +12,6 @@ public class Tc006_LoginIntoApplicationInvalidCre5 extends Base {
 		 * 3.Leave username blenk
 		 * 4.Enter valid Password 
 		 * 5.Click on Login button		*/
-		Base.openApplication();
 		Base.maximixeAndWaitImp();
 		Base.enterAdactinLink();
 		Login.EnterloginUSn("");
@@ -20,6 +19,5 @@ public class Tc006_LoginIntoApplicationInvalidCre5 extends Base {
 		Login.ClickONloginBtn();
 		System.out.println("Error massege should be showed");
 		Base.staticWaitThread(5000);
-		Base.closeApplication();
 	}
 }

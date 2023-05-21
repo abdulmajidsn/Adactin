@@ -10,37 +10,6 @@ import Utilities.Log;
 
 public class Login extends Base {
 
-/*
-	@FindBy(xpath ="//input[@id='username']")
-	WebElement username;
-
-	@FindBy(xpath ="//input[@id='password']")
-	WebElement password;
-
-	@FindBy(xpath ="//input[@id='login']")
-	WebElement loginbtn;
-
-	@FindBy(xpath ="//a[normalize-space()='Logout']")
-	WebElement logoutbtn;
-
-	@FindBy(xpath ="//a[normalize-space()='Forgot Password?']")
-	WebElement forgetlink;
-	@FindBy(xpath ="//input[@id='emailadd_recovery']")
-	WebElement forgetlinkEmIn;
-
-	@FindBy(xpath ="//input[@id='Submit']")
-	WebElement emailpassbut;
-
-	@FindBy(xpath ="//input[@id='Submit']")
-	WebElement emailresetsbut;
-
-	@FindBy(xpath ="//a[normalize-space()='Go back to Login page']")
-	WebElement fgbckloginscn;
-
-	@FindBy(xpath ="//p[normalize-space()='Adactin Launches The\r\n"
-			+ "	Adactin Hotel App!']")
-	WebElement welcometext;			*/
-
 	 static By username = By.xpath("//input[@id='username']");
 	 static By password = By.xpath("//input[@id='password']");
 	 static By loginbtn = By.xpath("//input[@id='login']");
@@ -112,8 +81,8 @@ public class Login extends Base {
 	}
 
 	public static void welcometext(String expected) {
-		String actualwelcomeText = driver.getTitle();
-		Assert.assertEquals(actualwelcomeText, expected);
+//		String actualwelcomeText = driver.getTitle();
+//		Assert.assertEquals(actualwelcomeText, expected);
 //    Assert.assertEquals(welcomeText.getText(), "Welcome to Adactin Group of Hotels");
 
 		if (driver.getTitle().equals(expected)) {

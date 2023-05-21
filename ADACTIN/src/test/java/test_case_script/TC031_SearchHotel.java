@@ -10,7 +10,6 @@ import pages.SearchHotel;
 public class TC031_SearchHotel extends Base {
 
 	public void TC031_SearchHotel() throws Exception {
-		Base.openApplication();
 		Base.enterAdactinLink();
 		Login.EnterloginUSn("abdulmaj123");
 		Login.EnterloginPWn("Abdul@1995");
@@ -25,7 +24,6 @@ public class TC031_SearchHotel extends Base {
 
 		System.out.println("Hotel page is displayed on screen");
 
-		Base.closeApplication();
 
 	}
 

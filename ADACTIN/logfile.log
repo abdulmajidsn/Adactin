@@ -52,3 +52,6 @@
 2023-05-07 19:26:03,394 INFO  [Log] Thread wait static wait  
 2023-05-07 19:26:03,823 INFO  [Log] Click on logout 
 2023-05-07 19:26:04,154 INFO  [Log] Close browser 
+2023-05-20 04:15:54,176 INFO  [Log] Enter URL 
+2023-05-20 04:15:56,191 INFO  [Log] Thread wait static wait  
+2023-05-20 04:15:56,393 INFO  [Log] Close browser 
