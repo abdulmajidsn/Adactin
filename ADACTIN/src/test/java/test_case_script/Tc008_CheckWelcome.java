@@ -5,9 +5,9 @@ import org.testng.annotations.Test;
 import Utilities.Base;
 import pages.Login;
 
-@Test
-public class Tc008_CheckWelcomeTest extends Base {
-	public void Tc008_CheckWelcomeTest() throws Exception {
+public class Tc008_CheckWelcome {
+	@Test
+	void Tc008_CheckWelcomeTest() throws Exception {
 		/*
 		 * TestSteps- 1.Launch browser 2.Enter URL 3.Matched Title
 		 */

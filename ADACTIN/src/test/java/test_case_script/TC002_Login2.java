@@ -5,13 +5,9 @@ import org.testng.annotations.Test;
 import Utilities.Base;
 import pages.Login;
 
-@Test
-public class Tc002_LoginIntoApplicationInvalidCre extends Base {
-	public void Tc002_LoginIntoApplicationInvalidCre() throws Exception {
-		/*
-		 * TestSteps- 1.Launch browser 2.Enter URL 3.Enter Invalid UserName 4.Enter
-		 * Valid Password 5.Click on Login button
-		 */
+public class TC002_Login2 {
+	@Test
+	void tc001() throws Exception {
 		Base.maximixeAndWaitImp();
 		Base.enterAdactinLink();
 		Login.EnterloginUSn("anjskddjl");

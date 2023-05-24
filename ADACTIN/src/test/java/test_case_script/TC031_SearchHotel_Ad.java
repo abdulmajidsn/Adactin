@@ -6,9 +6,9 @@ import Utilities.Base;
 import pages.Login;
 import pages.SearchHotel;
 
-@Test
-public class TC031_SearchHotel extends Base {
 
+public class TC031_SearchHotel_Ad extends Base {
+	@Test
 	public void TC031_SearchHotel() throws Exception {
 		Base.enterAdactinLink();
 		Login.EnterloginUSn("abdulmaj123");

@@ -5,9 +5,10 @@ import org.testng.annotations.Test;
 import Utilities.Base;
 import pages.Login;
 
-@Test
-public class Tc007_LoginIntoApplicationInvalidCre6 extends Base {
-	public void Tc007_LoginIntoApplicationInvalidCre6() throws Exception {
+
+public class Tc007_Login {
+	@Test
+	 void Login() throws Exception {
 		/*
 		 * TestSteps- 1.Launch browser 2.Enter URL 3.Leave username blenk 4.Leave
 		 * password blenk 5.Click on Login button

@@ -4,9 +4,9 @@ import Utilities.Base;
 import pages.Login;
 import pages.SearchHotel;
 
-public class TC032_SearchHotel_blenk_credentials extends Base {
+public class TC032_SearchHotel {
 
-	public void TC032_SearchHotel_blenk_credentials() throws Exception {
+	public void TC032_SearchHotel_() throws Exception {
 		try {
 			Base.enterAdactinLink();
 			Login.EnterloginUSn("abdulmaj123");

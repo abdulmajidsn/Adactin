@@ -6,13 +6,12 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-public class CrossBrowser {
+public class CrossBrowserDriver {
 	WebDriver driver;
-	
-	@Test
-	@Parameters("browser")
-	public void openApplication(String browser) {
-		
+@Test
+@Parameters("browser")
+	 void openApplication(String browser) {
+
 		switch (browser.toLowerCase()) {
 		case "firefox":
 			driver = new FirefoxDriver();
@@ -21,8 +20,9 @@ public class CrossBrowser {
 			driver = new EdgeDriver();
 			break;
 		default:
-			driver= null;
+			driver = null;
 			System.out.println("driver not selected");
 		}
+		driver.get("www.google.com");
 	}
 }

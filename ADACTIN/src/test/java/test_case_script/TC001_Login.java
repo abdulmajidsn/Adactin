@@ -15,8 +15,5 @@ public class TC001_Login {
 		Login.ClickONloginBtn();
 		Base.staticWaitThread(5000);
 		Login.logout();
-		 
 	}
-		
-	}
-
+}

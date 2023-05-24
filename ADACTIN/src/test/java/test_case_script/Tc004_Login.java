@@ -1,18 +1,20 @@
 package test_case_script;
+
 import org.testng.annotations.Test;
 
 import Utilities.Base;
 import pages.Login;
-@Test
-public class Tc001_LoginIntoApplication  {
-	 void tc001_LoginIntoApplication() throws Exception {
+
+
+public class Tc004_Login  {
+	@Test
+	void Login() throws Exception {
+		Base.maximixeAndWaitImp();
 		Base.enterAdactinLink();
-		Base.staticWaitThread(2000);
 		Login.EnterloginUSn("abdulmaj123");
-		Login.EnterloginPWn("Abdul@1995");
+		Login.EnterloginPWn("Abdul@skjhas");
 		Login.ClickONloginBtn();
+		System.out.println("Error massege should be showed");
 		Base.staticWaitThread(5000);
-		Login.logout();
-		
-	}	
+	}
 }
