@@ -8,9 +8,10 @@
       <class name="test_case_script.Tc007_Login"/>
       <class name="test_case_script.Tc005_Login"/>
       <class name="test_case_script.Tc004_Login4"/>
+      <class name="test_case_script.Tc003_Login"/>
       <class name="test_case_script.TC031_SearchHotel_Ad"/>
+      <class name="test_case_script.Tc006_LoginI"/>
       <class name="test_case_script.TC002_Login2"/>
-      <class name="test_case_script.Tc004_Login"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

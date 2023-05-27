@@ -13,7 +13,7 @@ void Tc005_LoginI() throws Exception {
 		 * 3.Enter INvalid UserName 
 		 * 4.Leave Password blenk
 		 * 5.Click on Login button		*/
-		
+		Base.openApplication();		
 		Base.maximixeAndWaitImp();
 		Base.enterAdactinLink();
 		Login.EnterloginUSn("abdulmaj123");
@@ -21,5 +21,5 @@ void Tc005_LoginI() throws Exception {
 		Login.ClickONloginBtn();
 		System.out.println("Error massege should be showed");
 		Base.staticWaitThread(5000);
-	}
+		Base.closeApplication();}
 }

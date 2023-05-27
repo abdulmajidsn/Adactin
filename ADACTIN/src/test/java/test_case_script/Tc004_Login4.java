@@ -7,7 +7,7 @@ import pages.Login;
 public class Tc004_Login4  {
 	@Test	
 	 void Login4() throws Exception {
-
+		Base.openApplication();
 		Base.maximixeAndWaitImp();
 		Base.enterAdactinLink();
 		Login.EnterloginUSn("abdulmdsdsdaj123");
@@ -15,5 +15,5 @@ public class Tc004_Login4  {
 		Login.ClickONloginBtn();
 		System.out.println("Error massege should be showed");
 		Base.staticWaitThread(5000);
-	}
+		Base.closeApplication();}
 }

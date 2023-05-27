@@ -11,10 +11,10 @@ public class Tc008_CheckWelcome {
 		/*
 		 * TestSteps- 1.Launch browser 2.Enter URL 3.Matched Title
 		 */
+		Base.openApplication();
 		Base.maximixeAndWaitImp();
 		Base.enterAdactinLink();
 		Login.welcometext("Adactin.com - Hotel Reservation System");
-
 		Base.staticWaitThread(5000);
-	}
+		Base.closeApplication();}
 }

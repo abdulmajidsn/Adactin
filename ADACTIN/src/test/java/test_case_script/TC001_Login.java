@@ -8,6 +8,7 @@ import pages.Login;
 public class TC001_Login {
 	@Test
 	void tc001() throws Exception {
+		Base.openApplication();
 		Base.enterAdactinLink();
 		Base.staticWaitThread(2000);
 		Login.EnterloginUSn("abdulmaj123");
@@ -15,5 +16,6 @@ public class TC001_Login {
 		Login.ClickONloginBtn();
 		Base.staticWaitThread(5000);
 		Login.logout();
+		Base.closeApplication();
 	}
 }

@@ -8,6 +8,7 @@ import pages.Login;
 public class TC002_Login2 {
 	@Test
 	void tc001() throws Exception {
+		Base.openApplication();
 		Base.maximixeAndWaitImp();
 		Base.enterAdactinLink();
 		Login.EnterloginUSn("anjskddjl");
@@ -15,5 +16,6 @@ public class TC002_Login2 {
 		Login.ClickONloginBtn();
 		System.out.println("Error massege should be showed");
 		Base.staticWaitThread(5000);
+		Base.closeApplication();
 	}
 }

@@ -8,6 +8,7 @@ public class TC032_SearchHotel {
 
 	public void TC032_SearchHotel_() throws Exception {
 		try {
+			Base.openApplication();
 			Base.enterAdactinLink();
 			Login.EnterloginUSn("abdulmaj123");
 			Login.EnterloginPWn("Abdul@1995");
@@ -22,7 +23,7 @@ public class TC032_SearchHotel {
 		}
 
 		System.out.println("Hotel page should not displayed on screen");
-
+		Base.closeApplication();
 
 	}
 

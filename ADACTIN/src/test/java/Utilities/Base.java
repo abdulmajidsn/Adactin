@@ -15,8 +15,8 @@ public class Base {
 	public static WebDriver driver;
 
 	@SuppressWarnings("deprecation")
-	@BeforeTest
-	public void openApplication() {
+	
+	public static void openApplication() {
 		WebDriverManager.chromedriver().setup();
 		ChromeOptions chromeOption=new ChromeOptions();
 		chromeOption.addArguments("--remote-allow-origins=*");
@@ -52,8 +52,8 @@ public class Base {
 		Reporter.log("enter url");
 		Log.info("Enter URL");
 	}
-	@AfterTest
-	public  void closeApplication() {
+	
+	public static void closeApplication() {
 		driver.quit();
 		System.out.println("Browser Closed");
 		Reporter.log("browser close");
